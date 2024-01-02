@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    padding: 40px;
+    background-color:black;
+    color:rgba(184, 188, 204, 1);
+
+}
+span{
+    display: inline-block;
+}
+.btn{
+    font-size: 1.3rem;
+    padding: 12px 55px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.ipDetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+}
+.ipDetails ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:gray;
+}
+#map{
+    /* border: 1px solid red; */ 
+    width: 100%;
+    height: 80vh
+}
+.mapdiv{
+    background-color: rgba(87, 90, 133, 1);
+    color:rgba(184, 188, 204, 1);
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+}
+.mapdiv h1{
+    color:rgba(184, 188, 204, 1);
+    padding:10px;
+    text-align: center;
+}
+#timezone h1{
+    text-align: center;
+    color:rgba(184, 188, 204, 1);
+}
+#timezone h3{
+    margin: 11px 5px;
+    color:gray;
+}
+#timezone{
+    margin: 45px 0;
+}
+#searchBoxed{
+    width: 95%;
+    margin:auto;
+    box-sizing: border-box;
+}
+#searchBoxed input{
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 11px 15px;
+    border: 2px solid rgba(87, 90, 133, 1);
+    background-color: black;
+    color:rgba(184, 188, 204, 1);
+    width: 100%;
+    border-radius: 7px;
+}
+#postOfficeList{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    row-gap: 15px;
+    column-gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    padding:10px 0;
+}
+
+#postOfficeList ul{
+    width: 500px;
+    margin: 15px 0;
+    list-style: none;
+   border-radius: 10px;
+   background-color: rgba(87, 90, 133, 1);
+    color:rgba(184, 188, 204, 1);
+    padding: 25px;
+}
+/* #postOfficeList ul{
+    padding: 25px;
+} */
+#postOfficeList ul li{
+    /* border: 1px solid red; */
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#ipadd{
+    color:azure;
+}
+.postoffice-div h3{
+    text-align: center;
+}
+.postoffice-div h4{
+    text-align: center;
+}
