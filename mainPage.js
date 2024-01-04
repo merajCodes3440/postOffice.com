@@ -3,10 +3,10 @@ function getUserInfo() {
     fetch("https://api.ipify.org/?format=json")
       .then((res) => res.json())
       .then((data) => {
-        let ipAddress = data.ip;
-     let ipadd= document.getElementById("ipadd")
+     let ipAddress = data.ip;
+     let ipadd2= document.getElementById("ipadd2")
 
-         ipadd.innerHTML=`<h4>${ipAddress}</h4>`;
+         ipadd2.innerHTML=`<h4>${ipAddress}</h4>`;
 //  ?token=a65aa5704d8782 token
        console.log(ipAddress)
 // fatch additional info based on the ip address
@@ -33,7 +33,8 @@ function getUserInfo() {
           });
       });
   }
-  getUserInfo();
+   getUserInfo();
+   
   function showLocationOnMap(lat, lon, data) {
     const mapDiv = document.getElementById("map");
     // const mapUrl = `https://www.google.com/maps/embed/v1/view?key=a65aa5704d8782=${lat},${lon}&zoom=10`;

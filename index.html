@@ -2,27 +2,24 @@
 <html>
   <head>
     <title>User Location</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="landingPage.css" />
   </head>
-
   <body>
-    <h1>MY Public IP ADDRESS : <span id="ipadd"></span></h1>
-    <div class="ipDetails"></div>
-    <div class="mapdiv">
-      <h1>Your Current Location</h1>
-      <div id="map"></div>
+   
+    <div class="mainContainer">
+        <div class="left">
+            <h2>Post Office Application.</h2>
+            <p>This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
+            <div class="img1-div">
+                <img src="./assets/img1.png" alt="dashbord-img">
+            </div>
+        </div>
+        <div class="right">
+            <div>
+                <h1>MY Public IP ADDRESS : <span id="ipadd"></span> </h1>
+               <button class="btn">Get Data</button>
+            </div>
+        </div>
     </div>
-    <div id="timezone">
-      <h1>More info about you</h1>
-    </div>
-    <div id="searchBoxed"></div>
-    <div class="postoffice-div">
-      <div id="postOfficeList">
-      </div>
-      <h3>Copyright @2023  All rights reserved. <h3>
-        <h4>Made with love ❤️</h4>
-    </div>
-    
-  </body>
-  <script src="script.js"></script>
+  <script src="landingPage.js"></script>
 </html>
