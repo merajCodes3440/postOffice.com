@@ -38,7 +38,7 @@ Clone this repository to your local machine.
 
 bash
 Copy code
-git clone https://github.com/your-username/nearby-post-office-finder.git
+git clone HTTP: https://github.com/merajCodes3440/postOffice.com.git
 Open the index.html file in your preferred web browser.
 
 Start exploring nearby post offices or use the search bar for more targeted results.
